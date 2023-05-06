@@ -48,7 +48,7 @@ b+树更好。
 
 - mysql配置，可以通过my.cnf配置最大连接数
 
-- 慢sql定位，主要是通过slow_query_log查询慢sql日志，定位慢查询语句。通过开启show profiles,来具体分析查询的资源开销情况，比如内存开销、io开销、cpu开销。
+- 慢sql定位，主要是通过slow_query_log查询慢sql日志，定位慢查询语句。explain查看执行计划。通过开启show profiles,来具体分析查询的资源开销情况，比如内存开销、io开销、cpu开销。
 
   
 
